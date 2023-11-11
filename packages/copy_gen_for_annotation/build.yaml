@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      copy_gen_for_annotation:
+        generate_for:
+          include:
+            - test/helper/*
+
+builders:
+  copy_gen_for_annotation:
+    import: "package:copy_gen_for_annotation/builder.dart"
+    builder_factories: ["copyBuilderForAnnotation"]
+    build_extensions: { ".dart": [".copy.dart"] }
+    build_to: source
