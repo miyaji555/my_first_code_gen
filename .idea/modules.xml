@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/melos_my_project.iml" filepath="$PROJECT_DIR$/melos_my_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/copy_gen/melos_copy_gen.iml" filepath="$PROJECT_DIR$/packages/copy_gen/melos_copy_gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/copy_gen_annotation/melos_copy_gen_annotation.iml" filepath="$PROJECT_DIR$/packages/copy_gen_annotation/melos_copy_gen_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_first_codegen.iml" filepath="$PROJECT_DIR$/melos_first_codegen.iml" />
     </modules>
   </component>
 </project>
