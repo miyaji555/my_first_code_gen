@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      copy_gen:
+        generate_for:
+          include:
+            - test/helper/*
+
+builders:
+  copy_gen:
+    import: "package:copy_gen/builder.dart"
+    builder_factories: ["copyBuilder"]
+    build_extensions: { ".dart": [".copy.dart"] }
+    build_to: source
